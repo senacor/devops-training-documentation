@@ -1,0 +1,35 @@
+site_name: DevOps Training Documentation
+theme:
+  name: "material"
+
+use_directory_urls: false
+
+nav:
+  - DevOps Training:
+      - Prerequisites: "advanced-training/00-Prerequisites.md"
+      - Exploring the sample application: "advanced-training/01-Exploring-the-sample-application.md"
+      - Containerization with Docker - Basics: "advanced-training/02-Containerization-with-Docker---Basics.md"
+      - Containerization with Docker - Building Docker images: "advanced-training/03-Containerization-with-Docker---Building-Docker-images.md"
+      - Building a CI/CD pipeline: "advanced-training/04-Building-a-CICD-pipeline.md"
+      - Introduction to Terraform: "advanced-training/05-Introduction-to-Terraform.md"
+      - Creating a Kubernetes cluster: "advanced-training/06-Creating-a-Kubernetes-cluster.md"
+      - Deploying the application: "advanced-training/07-Deploying-the-application.md"
+      - Providing a domain name for our application: "advanced-training/08-Deploying-an-Nginx-Ingress.md"
+      - Automating the deployment: "advanced-training/09-Automating-the-deployment.md"
+      - Production Deployments with Merge Requests: "advanced-training/10-Production-Deployments-With-Pull-Requests.md"
+      - Monitoring & Logging: "advanced-training/11-Monitoring-and-Logging.md"
+      - Setting up Monitoring: "advanced-training/12-Setting-up-Monitoring.md"
+      - Deploying an EFK stack and collecting logs: "advanced-training/13-Deploying_an_EFK_stack_and_collecting_logs.md"
+      - Bug Hunting: "advanced-training/14-Bug-Hunting.md"
+      - Teardown: "advanced-training/15-Teardown.md"
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - codehilite
+  - abbr
+  - attr_list
+  - pymdownx.details
+  - pymdownx.extra
+  - toc:
+      permalink: true
